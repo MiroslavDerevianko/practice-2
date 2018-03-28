@@ -1,6 +1,10 @@
 
 export default function createCounter(n) {
     // Change me!
-
-    return function() {};
+    let iter = -n; //хардкод 
+    let numb = n;
+    return function() {
+    	//console.log(iter);
+    	return iter += numb;
+    };
 }

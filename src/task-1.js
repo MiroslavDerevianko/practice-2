@@ -1,6 +1,9 @@
 
 export default function sum(...values) {
-    // Change me!
+    let result = 0;
+    values.map((item) => {
+    	result += item;
+    });
 
-    return 0;
+    return result;
 }

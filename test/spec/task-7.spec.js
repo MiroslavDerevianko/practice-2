@@ -22,7 +22,7 @@ describe("Task 7: Polynomials", () => {
     describe("should omit zero coefficients", () => {
         it("const", () => assert.equal(getPolynomial(0, 0, 0, 0, 0, 100), "100"));
 
-        it("x", () => assert.equal(getPolynomial(0, 1, 0), "x"));
+        it("x", () => assert.equal(getPolynomial(0, -1, 0), "-x"));
 
         it("x-square", () => assert.equal(getPolynomial(1, 0, 0), "x^2"));
 
